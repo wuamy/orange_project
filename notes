@@ -1,0 +1,24 @@
+check all required installed file
+(1) selenium: https://stackoverflow.com/questions/71324949/import-selenium-could-not-be-resolved-pylance-reportmissingimports
+(2) webdriver: chromedriver, edgedriver, firefoxdriver
+(3) when run test:python -m pytest test_cases\test_login.py
+(4) driver.find_element(By.XPATH,".//*[contains(text(),'Hello World')]")
+(5) how to get google authenticator code
+  * install pip install pyotp
+  * go to google authenticator->setting->backup->download and download backup file-> open it and get secret code
+  * add from pyotp import TOTP
+  * totp = TOTP('secretcode')
+  * token = totp.now()
+  * xx.send_keys(token)
+  * https://stackoverflow.com/questions/55870489/how-to-handle-google-authenticator-with-selenium
+  * https://stackoverflow.com/questions/70762719/problem-in-run-code-gives-error-non-base32-digit-found
+  
+
+step 1: create a folder structure
+step 2. download all required plug-in, selenium, py-html,etc
+step 3. start with a simple.py
+step 4. build a folder structure, pageobject, test_cases(testcase.py, conftest.py--pytest.fixture)
+step 5. move all login id/password to a config file and create a a file under utilities to read it
+step 6: add logger file
+step 7. add a report file
+step 8. build a .bat file
