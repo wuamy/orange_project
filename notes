@@ -13,7 +13,8 @@ check all required installed file
   * https://stackoverflow.com/questions/55870489/how-to-handle-google-authenticator-with-selenium
   * https://stackoverflow.com/questions/70762719/problem-in-run-code-gives-error-non-base32-digit-found
   * if error display when import selenium (https://stackoverflow.com/questions/71324949/import-selenium-could-not-be-resolved-pylance-reportmissingimports)
-
+  * the latest chromedriver: https://googlechromelabs.github.io/chrome-for-testing/#stable
+  
 
 step 1: create a folder structure
 step 2. download all required plug-in, selenium, py-html,etc

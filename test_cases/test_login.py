@@ -1,9 +1,8 @@
-from selenium import webdriver
-import pytest
+from selenium.webdriver.common.by import By
 from page_objects.login_page import LoginPage
-import time
 from utilities.read_properties import ReadConfig 
 from utilities.custom_logger import LogGen
+import time
 
 class Test_001_Login:
 
@@ -25,10 +24,15 @@ class Test_001_Login:
     self.driver.get(self.baseURL)
     time.sleep(3)
     act_title = self.driver.title
-    self.driver.close()
+    
     if act_title == 'OrangeHRM':
       assert True
+      self.driver.close()
+      self.log.info("*************** test_login_page title Pass *************")
+      
     else:
+      self.driver.close()
+      self.log.info("*************** test_login_page title Fail *************")
       assert False
 
   def test_login(self, setup):
@@ -44,7 +48,17 @@ class Test_001_Login:
     self.pl.set_password(self.password)
     self.pl.click_login()
     time.sleep(2)
-    self.driver.close()
+
+    page_title = self.driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[1]/header/div[1]/div[1]/span/h6').text
+    # print(page_title)
+    if page_title == 'Dashboard':
+      assert True
+      self.driver.close()
+      self.log.info("************** test login process PASS **********")
+    else:
+      self.driver.close()
+      self.log.info("************** test login process Failed*********")
+      assert False
 
 
 
