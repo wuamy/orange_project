@@ -1,0 +1,45 @@
+2024-06-16 09:21:35,895 :INFO :root :****************test login process **************
+2024-06-16 09:21:35,895 :INFO :root :**************** test_login_page title **************************
+2024-06-16 09:21:35,896 :INFO :root :**************** verify login page title ************************
+2024-06-16 09:21:39,818 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 09:21:43,696 :INFO :root :************** test login process PASS **********
+2024-06-16 09:28:51,246 :INFO :root :****************test login process **************
+2024-06-16 09:28:51,264 :INFO :root :**************** test_login_page title **************************
+2024-06-16 09:28:51,264 :INFO :root :**************** verify login page title ************************
+2024-06-16 09:28:56,339 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 09:28:57,818 :INFO :root :************** test login process PASS **********
+2024-06-16 09:51:37,642 :INFO :root :**************** test_login_page title **************************
+2024-06-16 09:51:37,642 :INFO :root :**************** verify login page title ************************
+2024-06-16 09:51:37,756 :INFO :root :****************test login process **************
+2024-06-16 09:51:42,909 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 09:51:44,137 :INFO :root :************** test login process PASS **********
+2024-06-16 10:06:54,566 :INFO :root :**************** test_login_page title **************************
+2024-06-16 10:06:54,566 :INFO :root :**************** verify login page title ************************
+2024-06-16 10:06:59,592 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 10:07:02,823 :INFO :root :****************test login process **************
+2024-06-16 10:07:11,222 :INFO :root :************** test login process PASS **********
+2024-06-16 10:09:53,839 :INFO :root :**************** test_login_page title **************************
+2024-06-16 10:09:53,840 :INFO :root :**************** verify login page title ************************
+2024-06-16 10:09:58,615 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 10:10:01,768 :INFO :root :****************test login process **************
+2024-06-16 10:10:09,847 :INFO :root :************** test login process PASS **********
+2024-06-16 10:25:50,745 :INFO :root :**************** test_login_page title **************************
+2024-06-16 10:25:50,745 :INFO :root :**************** verify login page title ************************
+2024-06-16 10:25:55,833 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 10:25:58,979 :INFO :root :****************test login process **************
+2024-06-16 10:26:06,028 :INFO :root :************** test login process PASS **********
+2024-06-16 10:27:51,088 :INFO :root :**************** test_login_page title **************************
+2024-06-16 10:27:51,088 :INFO :root :**************** verify login page title ************************
+2024-06-16 10:27:56,114 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 10:27:59,314 :INFO :root :****************test login process **************
+2024-06-16 10:28:06,668 :INFO :root :************** test login process PASS **********
+2024-06-16 10:32:05,000 :INFO :root :**************** test_login_page title **************************
+2024-06-16 10:32:05,000 :INFO :root :**************** verify login page title ************************
+2024-06-16 10:32:10,497 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 10:32:13,669 :INFO :root :****************test login process **************
+2024-06-16 10:32:27,330 :INFO :root :************** test login process PASS **********
+2024-06-16 10:34:55,444 :INFO :root :**************** test_login_page title **************************
+2024-06-16 10:34:55,444 :INFO :root :**************** verify login page title ************************
+2024-06-16 10:35:00,232 :INFO :root :*************** test_login_page title Pass *************
+2024-06-16 10:35:03,432 :INFO :root :****************test login process **************
+2024-06-16 10:35:11,596 :INFO :root :************** test login process PASS **********

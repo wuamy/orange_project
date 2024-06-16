@@ -1,5 +1,6 @@
 from selenium import webdriver
 import pytest
+from pytest_metadata.plugin import metadata_key
 
 @pytest.fixture
 def setup(browser):
@@ -17,3 +18,19 @@ def pytest_addoption(parser):
 @pytest.fixture
 def browser(request):
   return request.config.getoption("--browser")
+
+######## genetate html report #############
+
+#### Aadd a report title #######
+def pytest_html_report_title(report):
+    report.title = "Orange Project Test Report!"
+
+#### Add test env information #####
+def pytest_configure(config):
+    config.stash[metadata_key]["Test Project"] = "Orange Project"
+    config.stash[metadata_key]["Tester"] = "Amy"
+  
+
+def pytest_metadata(metadata):
+    metadata.pop('JAVA_HOME', None)
+    metadata.pop('Plugins', None)
