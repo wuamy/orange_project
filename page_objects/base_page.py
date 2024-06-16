@@ -6,7 +6,6 @@ import time
   1. locate elements
   2. open browser and access url
   3. close browser and release resource
-
 '''
 
 class BasePage:
