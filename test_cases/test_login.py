@@ -3,6 +3,7 @@ import pytest
 from page_objects.login_page import LoginPage
 import time
 from utilities.read_properties import ReadConfig 
+from utilities.custom_logger import LogGen
 
 class Test_001_Login:
 
@@ -14,7 +15,12 @@ class Test_001_Login:
   username = ReadConfig.get_app_username()
   password = ReadConfig.get_app_password()
 
-  def test_home_page(self, setup):
+  # define log object
+  log = LogGen.logger()
+
+  def test_login_page_title(self, setup):
+    self.log.info("**************** test_login_page title **************************")
+    self.log.info("**************** verify login page title ************************")
     self.driver = setup
     self.driver.get(self.baseURL)
     time.sleep(3)
@@ -25,7 +31,8 @@ class Test_001_Login:
     else:
       assert False
 
-  def test_login_page(self, setup):
+  def test_login(self, setup):
+    self.log.info("****************test login process **************")
     # self.driver = setup
     self.driver = setup
     self.driver.get(self.baseURL)
