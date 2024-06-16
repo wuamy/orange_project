@@ -2,6 +2,7 @@ from selenium import webdriver
 import pytest
 from pytest_metadata.plugin import metadata_key
 
+######### Add multiple browser ################
 @pytest.fixture
 def setup(browser):
   if browser == 'firefox':
@@ -23,7 +24,7 @@ def browser(request):
 
 #### Aadd a report title #######
 def pytest_html_report_title(report):
-    report.title = "Orange Project Test Report!"
+    report.title = "Orange Project Test Report"
 
 #### Add test env information #####
 def pytest_configure(config):

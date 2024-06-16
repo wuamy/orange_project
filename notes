@@ -16,6 +16,8 @@ check all required installed file
   * the latest chromedriver: https://googlechromelabs.github.io/chrome-for-testing/#stable
 (6) update conftest.py file first and then generate report: python -m pytest -s -v --html=reports/report.html test_cases\test_login.py --browser edge
 (7). modify html report https://pytest-html.readthedocs.io/en/latest/user_guide.html
+(8) github link: https://github.com/wuamy/orange_project
+
 
 
 step 1: create a folder structure
@@ -24,5 +26,6 @@ step 3. start with a simple.py
 step 4. build a folder structure, pageobject, test_cases(testcase.py, conftest.py--pytest.fixture)
 step 5. move all login id/password to a config file and create a a file under utilities to read it
 step 6: add logger file
+step 7: update 
 step 7. add a report file
 step 8. build a .bat file
