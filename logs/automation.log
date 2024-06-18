@@ -53,3 +53,8 @@
 2024-06-16 13:55:58,103 :INFO :root :*************** test_login_page title Pass *************
 2024-06-16 13:56:01,254 :INFO :root :****************test login process **************
 2024-06-16 13:56:08,318 :INFO :root :************** test login process PASS **********
+2024-06-18 09:20:51,291 :INFO :root :**************** test_login_page title **************************
+2024-06-18 09:20:51,295 :INFO :root :**************** verify login page title ************************
+2024-06-18 09:20:56,169 :INFO :root :*************** test_login_page title Pass *************
+2024-06-18 09:20:59,441 :INFO :root :****************test login process **************
+2024-06-18 09:21:06,711 :INFO :root :************** test login process PASS **********
