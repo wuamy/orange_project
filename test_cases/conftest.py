@@ -22,7 +22,7 @@ def browser(request):
 
 ######## genetate html report #############
 
-#### Aadd a report title #######
+#### Add a report title #######
 def pytest_html_report_title(report):
     report.title = "Orange Project Test Report"
 

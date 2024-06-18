@@ -1,4 +1,3 @@
-from selenium import webdriver
 import time
 
 # base class
@@ -10,7 +9,7 @@ import time
 
 class BasePage:
 
-  # defile constructure
+  # define constructure
   def __init__(self, driver):
     self.driver = driver
 
