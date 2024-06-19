@@ -58,3 +58,19 @@
 2024-06-18 09:20:56,169 :INFO :root :*************** test_login_page title Pass *************
 2024-06-18 09:20:59,441 :INFO :root :****************test login process **************
 2024-06-18 09:21:06,711 :INFO :root :************** test login process PASS **********
+2024-06-18 21:19:24,001 :INFO :root :**************** test_login_page title **************************
+2024-06-18 21:19:24,002 :INFO :root :**************** verify login page title ************************
+2024-06-18 21:19:31,343 :INFO :root :****************test login process **************
+2024-06-18 21:31:13,872 :INFO :root :****************test login process **************
+2024-06-18 21:34:45,599 :INFO :root :****************test login process **************
+2024-06-18 21:36:34,634 :INFO :root :****************test login process **************
+2024-06-18 21:40:20,846 :INFO :root :****************test login process **************
+2024-06-18 21:46:02,009 :INFO :root :****************test login process **************
+2024-06-18 22:12:19,506 :INFO :root :****************test login process **************
+2024-06-18 22:28:08,680 :INFO :root :****************test login process **************
+2024-06-18 22:28:10,885 :INFO :root :************** test login process PASS **********
+2024-06-18 22:45:46,258 :WARNING :selenium.webdriver.common.selenium_manager :The chromedriver version (125.0.6422.141) detected in PATH at C:\Users\wuamy\AppData\Local\Programs\Python\Python311\chromedriver.exe might not be compatible with the detected chrome version (126.0.6478.62); currently, chromedriver 126.0.6478.62 is recommended for chrome 126.*, so it is advised to delete the driver in PATH and retry
+2024-06-18 22:45:51,316 :INFO :root :****************test login process **************
+2024-06-18 22:50:31,478 :WARNING :selenium.webdriver.common.selenium_manager :The chromedriver version (125.0.6422.141) detected in PATH at C:\Users\wuamy\AppData\Local\Programs\Python\Python311\chromedriver.exe might not be compatible with the detected chrome version (126.0.6478.62); currently, chromedriver 126.0.6478.62 is recommended for chrome 126.*, so it is advised to delete the driver in PATH and retry
+2024-06-18 22:50:36,776 :INFO :root :****************test login process **************
+2024-06-18 22:50:38,907 :INFO :root :************** test login process PASS **********
