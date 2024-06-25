@@ -74,3 +74,6 @@
 2024-06-18 22:50:31,478 :WARNING :selenium.webdriver.common.selenium_manager :The chromedriver version (125.0.6422.141) detected in PATH at C:\Users\wuamy\AppData\Local\Programs\Python\Python311\chromedriver.exe might not be compatible with the detected chrome version (126.0.6478.62); currently, chromedriver 126.0.6478.62 is recommended for chrome 126.*, so it is advised to delete the driver in PATH and retry
 2024-06-18 22:50:36,776 :INFO :root :****************test login process **************
 2024-06-18 22:50:38,907 :INFO :root :************** test login process PASS **********
+2024-06-19 09:25:55,847 :WARNING :selenium.webdriver.common.selenium_manager :The chromedriver version (125.0.6422.141) detected in PATH at C:\Users\wuamy\AppData\Local\Programs\Python\Python311\chromedriver.exe might not be compatible with the detected chrome version (126.0.6478.63); currently, chromedriver 126.0.6478.62 is recommended for chrome 126.*, so it is advised to delete the driver in PATH and retry
+2024-06-19 09:26:01,124 :INFO :root :****************test login process **************
+2024-06-19 09:26:03,238 :INFO :root :************** test login process PASS **********

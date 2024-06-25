@@ -16,5 +16,11 @@ class Test_Simple:
   driver.find_element(By.XPATH, '//input[@placeholder="Password"]').send_keys('admin123')
   driver.find_element(By.XPATH, "//button[@type='submit']").click()
 
+  # working on admin tab
+  time.sleep(2)
+  driver.find_element(By.XPATH, '//a[@href="/web/index.php/admin/viewAdminModule"]').click()
+  time.sleep(2)
+  # driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button').click()
+  driver.find_element(By.XPATH, '//button[normalize-space()="Add"]').click()
 
-          
+           

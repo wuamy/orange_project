@@ -56,7 +56,6 @@ def pytest_configure(config):
     config.stash[metadata_key]["Test Project"] = "Orange Project"
     config.stash[metadata_key]["Tester"] = "Amy"
   
-
 def pytest_metadata(metadata):
     metadata.pop('JAVA_HOME', None)
     metadata.pop('Plugins', None)
